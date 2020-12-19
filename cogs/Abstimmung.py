@@ -16,7 +16,7 @@ class Abstimmung(commands.Cog):
     
   @commands.command(aliases=["ja","Ja","Up","up"])
   async def Up_Vote(self, ctx, Id):
-    """- Trägt einen Upvote in die Umfrage ein | Syntax: ja{Id}"""
+    """- Trägt einen Upvote in die Umfrage ein | Syntax: ja {Id}"""
     pass
   #Syntax: ?Ja {ID}
   #- If User not in Already_Voted
